@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Open+Sans:wght@500&display=swap");
+
+
+/* Color Theme Swatches in Hex */
+.My-Color-Theme-1-hex { color: #8C0000; }
+.My-Color-Theme-2-hex { color: #A80000; }
+.My-Color-Theme-3-hex { color: #A18585; }
+.My-Color-Theme-4-hex { color: #E3E3E3; }
+.My-Color-Theme-5-hex { color: #5C0000; }
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 12pt;
+}
+
+body {
+  font-family: "Open Sans";
+  padding-top: 60px;
+}
+
+h1 {
+  font-family: "Big Shoulders Stencil Text";
+  font-size: 48pt;
+  text-align: center;
+}
+
+/* CSS files add styling rules to your content */
+
+body,
+html {
+  height: 100%;
+}
+
+
+h2.article {
+  margin: 0px;
+  line-height: 12pt;
+  font-family: sans-serif;
+}
+
+h3 {
+  position: relative;
+  font-family: sans-serif;
+  z-index: -1;
+}
+
+.main {
+  /* Add a top margin to avoid content overlay */
+  z-index: -1;
+  margin-bottom: 80px;
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.logoNav {
+  position: relative;
+  top: 0px;
+  width: 60px;
+  margin: -4px 0px;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin-bottom: -10px;
+}
+
+.logoNav:hover {
+  filter: brightness(125%);
+  filter: drop-shadow(0px 3px 2px #000000);
+  position: local;
+  top: -3px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+}
+
+.footer {
+  font-size: 8pt;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: silver;
+  text-align: center;
+  background-color: white;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.dateline {
+  line-height: 10pt;
+  margin: 0px;
+}
+
+div.article {
+  position: relative;
+  background: solid;
+  background-color: #ebebeb;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+
+.page-width {
+  width: 100%;
+  background-color: #E3E3E3;
+}
+
+.content {
+  width: 100%;
+  margarine: 20px;
+}
+
+button.article {
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-width: 0px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+button {
+  border-width: 0px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+p.description {
+  margin-bottom: 40px;
+}
+
+button.download {
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  border-width: 0px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+}
+
+button.back {
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  top: 80px;
+  left: 10px;
+  margin-bottom: 5px;
+  border-width: 0px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+button.back:hover {
+  background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+  div.article {
+    width: 100%;
+    position: relative;
+    left: -13px;
+    margin-bottom: 5px;
+  }
+}
+
+h4 {
+  font-size: 30pt;
+  margin: 0;
+}
+
+h1.heroTitle {
+  font-size: 60pt;
+  line-height: 55pt;
+  color: white;
+}
+
+h1.wordmark {
+  color: white;
+  font-size: 40pt;
+  padding: 0px 10px;
+  margin: 0;
+}
+
+a.root {
+  padding: 0;
+}
+
+p {
+  padding-bottom: 5px;
+}

@@ -1,0 +1,58 @@
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  
+  /* Set a specific height */
+  width: 100%;
+  position: relative;
+  top: 23px;
+  /* Position and center the image to scale nicely on all screens */
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("https://static.wixstatic.com/media/d9d179_e3e2b9234691405693df232012f9296f~mv2.png/v1/fill/w_980,h_1108,al_c,q_90,usm_0.66_1.00_0.01/d9d179_e3e2b9234691405693df232012f9296f~mv2.webp");
+  
+  height: calc(100vh - 83px);
+}
+
+.blog-hero {
+  background-position: 0% -200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("https://static.wixstatic.com/media/d9d179_e3e2b9234691405693df232012f9296f~mv2.png/v1/fill/w_980,h_1108,al_c,q_90,usm_0.66_1.00_0.01/d9d179_e3e2b9234691405693df232012f9296f~mv2.webp");
+  height: calc(65vh - 83px);
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#hero-paragraph {
+  font-weight: bold;
+  font-size: 20pt;
+  transform: translate(0px, -15px);
+}
+
+#hero-button {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 16pt;
+  color: white;
+  padding: 5% 10%;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 0px;
+  border-color: white;
+}
+
+#hero-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translate(0px, -3px);
+}

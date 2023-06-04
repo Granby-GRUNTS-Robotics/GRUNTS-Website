@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Open+Sans:wght@500&display=swap");
+
+@font-face {
+    font-family: CargoCrate;
+    src: url("https://cdn.glitch.global/fa82663e-3d7e-4438-b472-726218c7cdc5/CargoCrate.otf") format("opentype");
+}
+
+.blog-post {
+  width: 100%;
+  height: 100%;
+  background: rgb(249, 249, 249);
+  margin-top: 10px;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.blog-post::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@keyframes example {
+  from {
+    border: 2px solid rgba(255, 255, 255, 0);
+  }
+  to {
+    border: 2px solid #cfcfcf;
+  }
+}
+
+.blog-post:hover {
+  border: 2px solid #cfcfcf;
+  animation-name: example;
+  animation-duration: 0.2s;
+}
+
+.top {
+  padding: 5px;
+}
+
+.byline {
+  float: right;
+}
+
+h1.blog-title,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans";
+}
+
+.post-body {
+  padding: 10px;
+}
+
+.blog-title {
+  font-family: "Open Sans";
+  font-size: 22pt;
+  text-align: left;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+h2.post-title {
+  margin: 0;
+}
+
+h6 {
+  color: #666666;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  position: relative;
+  top: 0;
+  /*border: 2px solid #171717;*/
+}
+
+td {
+  vertical-align: center;
+  padding: 2px;
+  font-size: 12pt;
+}
+
+td.title {
+  width: 100%;
+}
+
+table.byline {
+  min-width: 170px;
+  text-align: right;
+}
+
+td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 32px;
+}
+
+.cover {
+  width: 100%;
+}
+
+.blog {
+  /* Add a top margin to avoid content overlay */
+  z-index: -1;
+  margin-bottom: 80px;
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+}
+
+@media (max-width: 414px) {
+  .blog {
+    padding: 1em;
+    padding-top: 2em;
+  }
+}
+
+.blog-img {
+  width: 100%;
+}
